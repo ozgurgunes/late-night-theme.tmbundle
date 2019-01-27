@@ -9,7 +9,7 @@
 	<key>comment</key>
 	<string>A dark theme for Textmate.</string>
 	<key>name</key>
-	<string>Late NIght</string>
+	<string>Late Night</string>
 	<key>semanticClass</key>
 	<string>theme.dark.late_night</string>
 	<key>settings</key>
@@ -18,17 +18,17 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FFFFFF</string>
+				<string>#1B1B1B</string>
 				<key>caret</key>
-				<string>#000000</string>
+				<string>#ABABAB</string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#E7E7E7</string>
 				<key>invisibles</key>
-				<string>#BFBFBF</string>
+				<string>#2F2F2F</string>
 				<key>lineHighlight</key>
 				<string>#00000012</string>
 				<key>selection</key>
-				<string>#4D97FF54</string>
+				<string>#F2D08B33</string>
 			</dict>
 		</dict>
 		<dict>
@@ -37,7 +37,12 @@
 			<key>scope</key>
 			<string>comment</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>fontStyle</key>
+				<string> italic</string>
+				<key>foreground</key>
+				<string>#5E5E5E</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -45,7 +50,10 @@
 			<key>scope</key>
 			<string>string</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#9DC972</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -53,23 +61,10 @@
 			<key>scope</key>
 			<string>constant.numeric</string>
 			<key>settings</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Built-in constant</string>
-			<key>scope</key>
-			<string>constant.language</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>User-defined constant</string>
-			<key>scope</key>
-			<string>constant.character, constant.other</string>
-			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#E6A117</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -77,7 +72,10 @@
 			<key>scope</key>
 			<string>variable.language, variable.other</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#69A2DB</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -85,7 +83,10 @@
 			<key>scope</key>
 			<string>keyword</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#EDBD5D</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -93,7 +94,10 @@
 			<key>scope</key>
 			<string>storage</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#EDBD5D</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -101,7 +105,10 @@
 			<key>scope</key>
 			<string>entity.name.class</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#E6A117</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -109,7 +116,10 @@
 			<key>scope</key>
 			<string>entity.other.inherited-class</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#DB7C69</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -117,7 +127,10 @@
 			<key>scope</key>
 			<string>entity.name.function</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#E6A117</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -125,7 +138,10 @@
 			<key>scope</key>
 			<string>variable.parameter</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#DB7C69</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -133,7 +149,10 @@
 			<key>scope</key>
 			<string>entity.name.tag</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#EDBD5D</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -141,39 +160,10 @@
 			<key>scope</key>
 			<string>entity.other.attribute-name</string>
 			<key>settings</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Library function</string>
-			<key>scope</key>
-			<string>support.function</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Library constant</string>
-			<key>scope</key>
-			<string>support.constant</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Library class/type</string>
-			<key>scope</key>
-			<string>support.type, support.class</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Library variable</string>
-			<key>scope</key>
-			<string>support.other.variable</string>
-			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#E6A117</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -181,7 +171,10 @@
 			<key>scope</key>
 			<string>invalid</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>background</key>
+				<string>#8E2F1C</string>
+			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>

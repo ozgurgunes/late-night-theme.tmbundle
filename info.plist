@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>b.tharf@tznvy.pbz</string>
+	<key>contactName</key>
+	<string>Ozgur Gunes</string>
+	<key>description</key>
+	<string>A dark theme for Textmate.</string>
+	<key>name</key>
+	<string>Late Night Theme</string>
+	<key>uuid</key>
+	<string>8009F3EB-8EFC-4B24-8269-BD4DD66B1F72</string>
+</dict>
+</plist>

@@ -8,6 +8,21 @@
 	<string>sRGB</string>
 	<key>comment</key>
 	<string>A dark theme for Textmate.</string>
+	<key>gutterSettings</key>
+	<dict>
+		<key>background</key>
+		<string>#2F2F2F</string>
+		<key>divider</key>
+		<string>#5E5E5E</string>
+		<key>foreground</key>
+		<string>#888888</string>
+		<key>selectionBackground</key>
+		<string>#5E5E5E</string>
+		<key>selectionBorder</key>
+		<string>#888888</string>
+		<key>selectionForeground</key>
+		<string>#C3C3C3</string>
+	</dict>
 	<key>name</key>
 	<string>Late Night</string>
 	<key>semanticClass</key>
@@ -18,17 +33,28 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#1B1B1B</string>
+				<string>#202020</string>
 				<key>caret</key>
 				<string>#ABABAB</string>
 				<key>foreground</key>
 				<string>#E7E7E7</string>
 				<key>invisibles</key>
-				<string>#2F2F2F</string>
+				<string>#5E5E5E</string>
 				<key>lineHighlight</key>
 				<string>#00000012</string>
 				<key>selection</key>
-				<string>#F2D08B33</string>
+				<string>#E7E7E733</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Foldings</string>
+			<key>scope</key>
+			<string>deco.folding</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5E5E5E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -46,6 +72,50 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Constant</string>
+			<key>scope</key>
+			<string>constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A269DB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Entity</string>
+			<key>scope</key>
+			<string>entity</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DB7C69</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F2D08B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage</string>
+			<key>scope</key>
+			<string>storage</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F2D08B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
 			<string>string</string>
@@ -57,90 +127,24 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Number</string>
+			<string>Support</string>
 			<key>scope</key>
-			<string>constant.numeric</string>
+			<string>support</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E6A117</string>
+				<string>#BC94E5</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable.language, variable.other</string>
+			<string>variable</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#69A2DB</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Keyword</string>
-			<key>scope</key>
-			<string>keyword</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#EDBD5D</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Storage</string>
-			<key>scope</key>
-			<string>storage</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#EDBD5D</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Class name</string>
-			<key>scope</key>
-			<string>entity.name.class</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#E6A117</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Inherited class</string>
-			<key>scope</key>
-			<string>entity.other.inherited-class</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#DB7C69</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Function name</string>
-			<key>scope</key>
-			<string>entity.name.function</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#E6A117</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Function argument</string>
-			<key>scope</key>
-			<string>variable.parameter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#DB7C69</string>
 			</dict>
 		</dict>
 		<dict>
@@ -151,7 +155,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EDBD5D</string>
+				<string>#E5A194</string>
 			</dict>
 		</dict>
 		<dict>
@@ -174,17 +178,6 @@
 			<dict>
 				<key>background</key>
 				<string>#8E2F1C</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Control Keyword</string>
-			<key>scope</key>
-			<string>keyword.control</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#DB7C69</string>
 			</dict>
 		</dict>
 		<dict>
@@ -217,7 +210,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EDBD5D</string>
+				<string>#E5A194</string>
 			</dict>
 		</dict>
 		<dict>
@@ -233,90 +226,83 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css tag-name</string>
+			<string>Entity inherited-class</string>
 			<key>scope</key>
-			<string>meta.selector.css entity.name.tag</string>
+			<string>entity.other.inherited-class</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
-				<string>#E6A117</string>
+				<string>#CC4429</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css:pseudo-class</string>
+			<string>Entity name</string>
 			<key>scope</key>
-			<string>meta.selector.css entity.other.attribute-name.tag.pseudo-class</string>
+			<string>entity.name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8F9D6A</string>
+				<string>#E7E7E7</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css#id</string>
+			<string>Meta class</string>
 			<key>scope</key>
-			<string>meta.selector.css entity.other.attribute-name.id</string>
+			<string>entity.name.type.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8B98AB</string>
+				<string>#DB7C69</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css.class</string>
+			<string>Diff header</string>
 			<key>scope</key>
-			<string>meta.selector.css entity.other.attribute-name.class</string>
+			<string>meta.diff, meta.diff.header, meta.separator, meta.diff.range, meta.diff.index</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#E6A117</string>
+				<key>background</key>
+				<string>#0E2A47</string>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css property-value;</string>
+			<string>Diff deleted</string>
 			<key>scope</key>
-			<string>meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css</string>
+			<string>markup.deleted</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#EDBD5D</string>
+				<key>background</key>
+				<string>#47170E</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css @at-rule</string>
+			<string>Diff changed</string>
 			<key>scope</key>
-			<string>meta.preprocessor.at-rule keyword.control.at-rule</string>
+			<string>markup.changed</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#8693A5</string>
+				<key>background</key>
+				<string>#503808</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css additional-constants</string>
+			<string>Diff inserted</string>
 			<key>scope</key>
-			<string>meta.property-value support.constant.named-color.css, meta.property-value constant</string>
+			<string>markup.inserted</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#CA7840</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>§ css constructor.argument</string>
-			<key>scope</key>
-			<string>meta.constructor.argument.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#8F9D6A</string>
+				<key>background</key>
+				<string>#283E12</string>
 			</dict>
 		</dict>
 	</array>

@@ -83,17 +83,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Entity</string>
-			<key>scope</key>
-			<string>entity</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#DB7C69</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
 			<string>keyword</string>
@@ -111,7 +100,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F2D08B</string>
+				<string>#E5A194</string>
 			</dict>
 		</dict>
 		<dict>
@@ -149,7 +138,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Tag name</string>
+			<string>Tag Name</string>
 			<key>scope</key>
 			<string>entity.name.tag</string>
 			<key>settings</key>
@@ -160,7 +149,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Tag attribute</string>
+			<string>Tag Attribute</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name</string>
 			<key>settings</key>
@@ -204,6 +193,28 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Entity Name</string>
+			<key>scope</key>
+			<string>entity.name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E7E7E7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Meta Class</string>
+			<key>scope</key>
+			<string>entity.name.type.class, entity.name.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DB7C69</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Meta Tag</string>
 			<key>scope</key>
 			<string>declaration.tag, declaration.tag entity, meta.tag, meta.tag entity</string>
@@ -226,7 +237,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Entity inherited-class</string>
+			<string>Entity Inherited Class</string>
 			<key>scope</key>
 			<string>entity.other.inherited-class</string>
 			<key>settings</key>
@@ -234,25 +245,84 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#CC4429</string>
+				<string>#9B5C2E</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Entity name</string>
+			<string>String Embedded Source</string>
 			<key>scope</key>
-			<string>entity.name</string>
+			<string>string meta.embedded</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#B9D99A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String Constant</string>
+			<key>scope</key>
+			<string>string constant</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E7E7E7</string>
+				<string>#B9D99A</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Meta class</string>
+			<string>String Regex</string>
 			<key>scope</key>
-			<string>entity.name.type.class</string>
+			<string>string.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#F2D08B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String Regex Extra</string>
+			<key>scope</key>
+			<string>string.regexp constant.character.escape, string.regexp source.ruby.embedded, string.regexp string.regexp.arbitrary-repitition</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EDBD5D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String Bariable</string>
+			<key>scope</key>
+			<string>string variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ABABAB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Support Function</string>
+			<key>scope</key>
+			<string>support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EDBD5D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Support Constant</string>
+			<key>scope</key>
+			<string>support.constant</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -261,22 +331,261 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Diff header</string>
+			<string>C/C++ Preprocessor Line</string>
+			<key>scope</key>
+			<string>meta.preprocessor.c, source.swift meta.preprocessor</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C3C3C3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C/C++ Preprocessor Directive</string>
+			<key>scope</key>
+			<string>meta.preprocessor.c keyword, source.swift meta.preprocessor keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ABABAB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Doctype/XML Processing</string>
+			<key>scope</key>
+			<string>meta.tag.metadata.doctype, meta.tag.metadata.doctype entity, meta.tag.metadata.doctype string, meta.tag.metadata.processing.xml, meta.tag.metadata.processing.xml entity, meta.tag.metadata.processing.xml string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#888888</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Meta Tag</string>
+			<key>scope</key>
+			<string>declaration.tag, declaration.tag entity, meta.tag, meta.tag entity</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EDBD5D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Meta Tag Inline</string>
+			<key>scope</key>
+			<string>declaration.tag.inline, declaration.tag.inline entity, meta.tag.inline, meta.tag.inline entity</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F2D08B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Tag</string>
+			<key>scope</key>
+			<string>meta.selector.css entity.name.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EDBD5D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Pseudo Class</string>
+			<key>scope</key>
+			<string>meta.selector.css entity.other.attribute-name.tag.pseudo-class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A269DB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Id</string>
+			<key>scope</key>
+			<string>meta.selector.css entity.other.attribute-name.id</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#69A2DB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Class</string>
+			<key>scope</key>
+			<string>meta.selector.css entity.other.attribute-name.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DB7C69</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Property Name:</string>
+			<key>scope</key>
+			<string>support.type.property-name.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A269DB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Property Value;</string>
+			<key>scope</key>
+			<string>meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BC94E5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS @Rule</string>
+			<key>scope</key>
+			<string>meta.preprocessor.at-rule keyword.control.at-rule</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CC4429</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Additional Constants</string>
+			<key>scope</key>
+			<string>meta.property-value support.constant.named-color.css, meta.property-value constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DB7C69</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Constructor Argument</string>
+			<key>scope</key>
+			<string>meta.constructor.argument.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9DC972</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff Header</string>
 			<key>scope</key>
 			<string>meta.diff, meta.diff.header, meta.separator, meta.diff.range, meta.diff.index</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#0E2A47</string>
+				<string>#1C558E</string>
 				<key>fontStyle</key>
 				<string>italic</string>
+				<key>foreground</key>
+				<string>#F8F8F8</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Diff deleted</string>
+			<string>Diff Deleted</string>
 			<key>scope</key>
 			<string>markup.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#8E2F1C</string>
+				<key>foreground</key>
+				<string>#F8F8F8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff Changed</string>
+			<key>scope</key>
+			<string>markup.changed</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#A07010</string>
+				<key>foreground</key>
+				<string>#F8F8F8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff Inserted</string>
+			<key>scope</key>
+			<string>markup.inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#507C25</string>
+				<key>foreground</key>
+				<string>#F8F8F8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: List</string>
+			<key>scope</key>
+			<string>markup.list</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DB7C69</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Heading</string>
+			<key>scope</key>
+			<string>markup.heading</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CC4429</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Raw Block</string>
+			<key>scope</key>
+			<string>markup.raw.block</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#88888814</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Test: 1</string>
+			<key>scope</key>
+			<string>meta.test1</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#0E2A47</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Test: 2</string>
+			<key>scope</key>
+			<string>meta.test2</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -285,9 +594,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Diff changed</string>
+			<string>Test: 3</string>
 			<key>scope</key>
-			<string>markup.changed</string>
+			<string>meta.test3</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -296,9 +605,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Diff inserted</string>
+			<string>Test: 4</string>
 			<key>scope</key>
-			<string>markup.inserted</string>
+			<string>meta.test4</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>

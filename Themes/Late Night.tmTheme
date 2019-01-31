@@ -67,7 +67,7 @@
 				<key>fontStyle</key>
 				<string> italic</string>
 				<key>foreground</key>
-				<string>#5E5E5E</string>
+				<string>#888888</string>
 			</dict>
 		</dict>
 		<dict>
@@ -78,7 +78,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A269DB</string>
+				<string>#DB7C69</string>
 			</dict>
 		</dict>
 		<dict>
@@ -122,7 +122,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#BC94E5</string>
+				<string>#69A2DB</string>
 			</dict>
 		</dict>
 		<dict>
@@ -133,7 +133,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#69A2DB</string>
+				<string>#EDBD5D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -166,7 +166,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#8E2F1C</string>
+				<string>#7A29CC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -177,7 +177,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#C3C3C320</string>
+				<string>#2F2F2F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -188,7 +188,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#E7E7E720</string>
+				<string>#5E5E5E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -221,7 +221,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E5A194</string>
+				<string>#E6A117</string>
 			</dict>
 		</dict>
 		<dict>
@@ -232,7 +232,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E6A117</string>
+				<string>#EDBD5D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -245,7 +245,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#9B5C2E</string>
+				<string>#EDBD5D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -269,7 +269,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B9D99A</string>
+				<string>#74B336</string>
 			</dict>
 		</dict>
 		<dict>
@@ -298,13 +298,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String Bariable</string>
+			<string>String Variable</string>
 			<key>scope</key>
 			<string>string variable</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ABABAB</string>
+				<string>#297ACC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -315,7 +315,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EDBD5D</string>
+				<string>#BC94E5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -360,28 +360,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#888888</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Meta Tag</string>
-			<key>scope</key>
-			<string>declaration.tag, declaration.tag entity, meta.tag, meta.tag entity</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#EDBD5D</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Meta Tag Inline</string>
-			<key>scope</key>
-			<string>declaration.tag.inline, declaration.tag.inline entity, meta.tag.inline, meta.tag.inline entity</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F2D08B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -495,7 +473,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#F8F8F8</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -508,7 +486,7 @@
 				<key>background</key>
 				<string>#8E2F1C</string>
 				<key>foreground</key>
-				<string>#F8F8F8</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -521,7 +499,7 @@
 				<key>background</key>
 				<string>#A07010</string>
 				<key>foreground</key>
-				<string>#F8F8F8</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -534,7 +512,7 @@
 				<key>background</key>
 				<string>#507C25</string>
 				<key>foreground</key>
-				<string>#F8F8F8</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -567,7 +545,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#88888814</string>
+				<string>#2F2F2F</string>
 			</dict>
 		</dict>
 		<dict>

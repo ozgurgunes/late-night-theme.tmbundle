@@ -78,7 +78,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DB7C69</string>
+				<string>#BC94E5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -166,7 +166,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E6A117</string>
+				<string>#E5A194</string>
 			</dict>
 		</dict>
 		<dict>
@@ -283,6 +283,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Comment Block</string>
+			<key>scope</key>
+			<string>comment.block string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#888888</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>String Embedded Source</string>
 			<key>scope</key>
 			<string>string meta.embedded</string>
@@ -326,7 +337,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EDBD5D</string>
+				<string>#DB7C69</string>
 			</dict>
 		</dict>
 		<dict>

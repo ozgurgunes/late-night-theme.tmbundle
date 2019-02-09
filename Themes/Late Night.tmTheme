@@ -133,7 +133,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EDBD5D</string>
+				<string>#DB7C69</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parameter</string>
+			<key>scope</key>
+			<string>variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F2D08B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -177,7 +188,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#2F2F2F</string>
+				<string>#5E5E5E33</string>
 			</dict>
 		</dict>
 		<dict>
@@ -188,7 +199,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#5E5E5E</string>
+				<string>#5E5E5E66</string>
 			</dict>
 		</dict>
 		<dict>
@@ -245,7 +256,29 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#EDBD5D</string>
+				<string>#F2D08B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function Call</string>
+			<key>scope</key>
+			<string>meta.function-call</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#94BCE5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function Call Arguments</string>
+			<key>scope</key>
+			<string>meta.function-call.arguments</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E7E7E7</string>
 			</dict>
 		</dict>
 		<dict>

@@ -78,18 +78,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#BC94E5</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Keyword</string>
-			<key>scope</key>
-			<string>keyword</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F2D08B</string>
+				<string>#DB7C69</string>
 			</dict>
 		</dict>
 		<dict>
@@ -127,20 +116,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Variable</string>
+			<string>Parameter</string>
 			<key>scope</key>
-			<string>variable</string>
+			<string>variable.parameter</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DB7C69</string>
+				<string>#F2D08B</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Parameter</string>
+			<string>Keyword Control</string>
 			<key>scope</key>
-			<string>variable.parameter</string>
+			<string>keyword.control</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

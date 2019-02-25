@@ -127,13 +127,24 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Keyword Control</string>
+			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword.control</string>
+			<string>keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#F2D08B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword Operator Module</string>
+			<key>scope</key>
+			<string>keyword.operator.module</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BC94E5</string>
 			</dict>
 		</dict>
 		<dict>

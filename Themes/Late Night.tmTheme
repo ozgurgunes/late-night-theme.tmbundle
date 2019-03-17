@@ -320,20 +320,20 @@
 			<key>name</key>
 			<string>String Regex</string>
 			<key>scope</key>
-			<string>string.regexp</string>
+			<string>string.regexp, string.regexp keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#F2D08B</string>
+				<string>#EDBD5D</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>String Regex Extra</string>
 			<key>scope</key>
-			<string>string.regexp constant.character.escape, string.regexp source.ruby.embedded, string.regexp string.regexp.arbitrary-repitition</string>
+			<string>string.regexp constant.other.character-class.set.regexp, string.regexp constant.character.character-class.regexp, string.regexp constant.character.escape, string.regexp source.ruby.embedded, string.regexp string.regexp.arbitrary-repitition</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
